@@ -57,15 +57,18 @@ DB_PORT=5432
 The python_etl container will run once, load the data, and then stop automatically.
 
 The postgres_db container will remain active and keep the PostgreSQL database running.
-```docker-compose up --build
+```
+docker-compose up --build
 ```
 
 ### 4. 🔎 Verify the Data:
 To check if the data was successfully loaded, connect to the PostgreSQL container:
-```docker exec -it postgres_db psql -U postgres -d github_etl
+```
+docker exec -it postgres_db psql -U postgres -d github_etl
 ```
 Then run:
-``` SELECT * FROM github_repos LIMIT 5;
+```
+SELECT * FROM github_repos LIMIT 5;
 ```
 
 
