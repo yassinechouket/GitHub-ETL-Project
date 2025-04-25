@@ -23,10 +23,13 @@ Everything runs inside Docker containers, making the setup easy and reproducible
 
 ## Prerequisites
 
-Docker
-A GitHub token (for API authentication)
-Python 3 (already included in the container)
-A GitHub account
+-Docker
+
+-A GitHub token (for API authentication)
+
+-Python 3 (already included in the container)
+
+-A GitHub account
 
 ## Getting started
 
