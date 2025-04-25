@@ -3,8 +3,15 @@
 
 A mini ETL (Extract, Transform, Load) project using Python, Docker, and PostgreSQL to extract a user's GitHub repositories, transform them, and load them into a database.
 
-## Architecture Diagram
+## 🧱 Architecture
+
 ![mini_etl](https://github.com/user-attachments/assets/9ce0c249-ba1d-47b2-b5e7-d285bcca6877)
+
+<br>
+
+[![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
+[![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)](https://www.docker.com/)
+
 
 
 ## Description
