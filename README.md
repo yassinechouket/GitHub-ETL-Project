@@ -32,16 +32,17 @@ A GitHub account
 
 #### 1. Clone the repo
 
-```git clone https://github.com/your-username/github_etl_docker.git
+```
+git clone https://github.com/your-username/github_etl_docker.git
 cd github_etl_docker
-
 ```
 
 ### 2. Configure the .env file:
 
 In the .env file, configure your PostgreSQL environment variables - host, port, user, password, database
 
-```GITHUB_USERNAME=your_github_username
+```
+GITHUB_USERNAME=your_github_username
 GITHUB_TOKEN=your_github_token
 
 DB_NAME=github_etl
