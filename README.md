@@ -80,6 +80,7 @@ Then run:
 ```
 SELECT * FROM github_repos LIMIT 5;
 ```
+![image](https://github.com/user-attachments/assets/37aebe08-188b-4e3f-914b-f682d8e82090)
 
 
 ### 5.📁 Project Structure:
