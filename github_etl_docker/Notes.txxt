@@ -1,0 +1,14 @@
+1)
+-requests: A popular library for making HTTP requests. It simplifies sending requests and handling responses.
+-psycopg2-binary: A library for interacting with a PostgreSQL database from Python. It allows you to execute SQL queries on a PostgreSQL database.
+-python-dotenv: Allows loading environment variables from a .env file in your project. It's often used to store sensitive information such as API keys, passwords, etc
+
+Then install them(before containerizing):
+
+pip install -r requirements.txt
+
+2)
+-import os: This library allows you to work with the operating system, particularly for accessing environment variables (the information in the .env file).
+-import requests: This library is used to send HTTP requests. It's often used to interact with APIs (for example, the GitHub API in this case).
+-import psycopg2: This is a library for interacting with a PostgreSQL database. It allows you to connect, execute SQL queries, and manipulate data.
+-from dotenv import load_dotenv: This library allows you to load environment variables from the .env file into your Python code.

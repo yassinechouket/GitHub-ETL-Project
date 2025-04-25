@@ -1,0 +1,28 @@
+version: "3"
+services:
+  db:
+    image: postgres:13
+    container_name: postgres_db
+    restart: always
+    ports:
+      - "5432:5432"
+    environment:
+      POSTGRES_DB: etl_db
+      POSTGRES_USER: etl_user
+      POSTGRES_PASSWORD: 98601006
+    volumes:
+      - pg_data:/var/lib/postgresql/data
+
+  python-etl:
+    build: .
+    container_name: python_etl
+    depends_on:
+      - db
+    env_file:
+      - .env
+    volumes:
+      - ./data:/app/data
+    restart: on-failure
+
+volumes:
+  pg_data:
